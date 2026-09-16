@@ -32,6 +32,7 @@
 }
 
 .sidebar-top-box {
+    align-items: center;
     padding: 10px;
     display: flex;
     gap: 10px;
@@ -44,6 +45,12 @@
     height: 40px;
     box-sizing: border-box;
     border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
 }
 
 .sidebar-logo-text {
@@ -52,6 +59,11 @@
     height: 40px;
     box-sizing: border-box;
     border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: #94a3b8;
+    font-size: 13px;
 }
 
 .sidebar-middle-box {
@@ -74,6 +86,11 @@
     border-radius: 6px;
     background-color: transparent;
 }
+.sidebar-link:hover {
+    background-color: #334155;
+    color: #ffffff;
+    transition: background-color 0.2s ease;
+}
 
 .sidebar-bottom-box {
     background-color: #334155;
@@ -95,10 +112,11 @@
     background-size: cover;
     background-position: center;
     border-radius: 8px;
-    flex: 1;
+    flex: 1; 
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start; flex-direction: column; justify-content: flex-end;
+    align-items: flex-start; 
+    flex-direction: column; 
+    justify-content: flex-end;
     padding: 40px;
     box-sizing: border-box;
 }
@@ -132,6 +150,7 @@
     flex-direction: column;
     border-radius: 8px;
     border: 1px solid #334155;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
 }
 
 .card-img {
@@ -144,10 +163,10 @@
     border-radius: 4px;
 }
 
-.card-text {
+.card-title {
     color: #e2e8f0;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     margin: 0;
     text-align: center;
 }
@@ -161,11 +180,11 @@
 }
 
 .card-desc {
-    color: #94a3b8;
+    color: #a0aec0;
     font-size: 13px;
     margin: 10px 0 0 0;
     text-align: center;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 .sidebar-footer-text {
