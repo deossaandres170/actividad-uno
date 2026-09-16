@@ -86,6 +86,11 @@
     border-radius: 6px;
     background-color: transparent;
 }
+.sidebar-link:hover {
+    background-color: #334155;
+    color: #ffffff;
+    transition: background-color 0.2s ease;
+}
 
 .sidebar-bottom-box {
     background-color: #334155;
